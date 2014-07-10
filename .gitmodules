@@ -24,7 +24,7 @@
 	url = git://github.com/sensio/SensioFrameworkExtraBundle.git
 [submodule "vendor/bundles/Funkiton/InjectorBundle"]
 	path = vendor/bundles/Funkiton/InjectorBundle
-	url = git://github.com/Funkiton/InjectorBundle.git
+	url = git@github.com:aire-atlas/InjectorBundle.git
 [submodule "vendor/gedmo-doctrine-extensions"]
 	path = vendor/gedmo-doctrine-extensions
 	url = git://github.com/l3pp4rd/DoctrineExtensions.git
