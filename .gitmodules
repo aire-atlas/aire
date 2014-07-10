@@ -30,7 +30,7 @@
 	url = git@github.com:aire-atlas/gedmo-doctrine-extensions.git
 [submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
 	path = vendor/bundles/Stof/DoctrineExtensionsBundle
-	url = git://github.com/stof/DoctrineExtensionsBundle.git
+	url = git@github.com:aire-atlas/StofDoctrineExtensionsBundle.git
 [submodule "vendor/bundles/FOS/UserBundle"]
 	path = vendor/bundles/FOS/UserBundle
 	url = git://github.com/FriendsOfSymfony/FOSUserBundle.git
