@@ -6,13 +6,13 @@
 	url = git://github.com/doctrine/mongodb.git
 [submodule "vendor/doctrine-mongodb-odm"]
 	path = vendor/doctrine-mongodb-odm
-	url = git://github.com/doctrine/mongodb-odm.git
+	url = git@github.com:aire-atlas/mongodb-odm.git
 [submodule "vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle"]
 	path = vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle
 	url = https://github.com/doctrine/DoctrineMongoDBBundle.git
 [submodule "vendor/symfony"]
 	path = vendor/symfony
-	url = git://github.com/symfony/symfony.git
+	url = git@github.com:aire-atlas/symfony.git
 [submodule "vendor/twig"]
 	path = vendor/twig
 	url = git://github.com/fabpot/Twig.git
@@ -27,7 +27,7 @@
 	url = git@github.com:aire-atlas/InjectorBundle.git
 [submodule "vendor/gedmo-doctrine-extensions"]
 	path = vendor/gedmo-doctrine-extensions
-	url = git://github.com/l3pp4rd/DoctrineExtensions.git
+	url = git@github.com:aire-atlas/gedmo-doctrine-extensions.git
 [submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
 	path = vendor/bundles/Stof/DoctrineExtensionsBundle
 	url = git://github.com/stof/DoctrineExtensionsBundle.git
