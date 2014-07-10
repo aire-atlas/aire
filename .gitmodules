@@ -9,7 +9,7 @@
 	url = git://github.com/doctrine/mongodb-odm.git
 [submodule "vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle"]
 	path = vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle
-	url = git://github.com/symfony/DoctrineMongoDBBundle.git
+	url = https://github.com/doctrine/DoctrineMongoDBBundle.git
 [submodule "vendor/symfony"]
 	path = vendor/symfony
 	url = git://github.com/symfony/symfony.git
