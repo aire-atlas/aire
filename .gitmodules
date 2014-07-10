@@ -1,36 +1,36 @@
 [submodule "vendor/doctrine-common"]
 	path = vendor/doctrine-common
-	url = git://github.com/doctrine/common.git
+	url = https://github.com/doctrine/common.git
 [submodule "vendor/doctrine-mongodb"]
 	path = vendor/doctrine-mongodb
-	url = git://github.com/doctrine/mongodb.git
+	url = https://github.com/doctrine/mongodb.git
 [submodule "vendor/doctrine-mongodb-odm"]
 	path = vendor/doctrine-mongodb-odm
-	url = git@github.com:aire-atlas/mongodb-odm.git
+	url = https://github.com/aire-atlas/mongodb-odm.git
 [submodule "vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle"]
 	path = vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle
 	url = https://github.com/doctrine/DoctrineMongoDBBundle.git
 [submodule "vendor/symfony"]
 	path = vendor/symfony
-	url = git@github.com:aire-atlas/symfony.git
+	url = https://github.com/aire-atlas/symfony.git
 [submodule "vendor/twig"]
 	path = vendor/twig
-	url = git://github.com/fabpot/Twig.git
+	url = https://github.com/fabpot/Twig.git
 [submodule "vendor/monolog"]
 	path = vendor/monolog
-	url = git://github.com/Seldaek/monolog.git
+	url = https://github.com/Seldaek/monolog.git
 [submodule "vendor/bundles/Sensio/Bundle/FrameworkExtraBundle"]
 	path = vendor/bundles/Sensio/Bundle/FrameworkExtraBundle
-	url = git://github.com/sensio/SensioFrameworkExtraBundle.git
+	url = https://github.com/sensio/SensioFrameworkExtraBundle.git
 [submodule "vendor/bundles/Funkiton/InjectorBundle"]
 	path = vendor/bundles/Funkiton/InjectorBundle
-	url = git@github.com:aire-atlas/InjectorBundle.git
+	url = https://github.com/aire-atlas/InjectorBundle.git
 [submodule "vendor/gedmo-doctrine-extensions"]
 	path = vendor/gedmo-doctrine-extensions
-	url = git@github.com:aire-atlas/gedmo-doctrine-extensions.git
+	url = https://github.com/aire-atlas/gedmo-doctrine-extensions.git
 [submodule "vendor/bundles/Stof/DoctrineExtensionsBundle"]
 	path = vendor/bundles/Stof/DoctrineExtensionsBundle
-	url = git@github.com:aire-atlas/StofDoctrineExtensionsBundle.git
+	url = https://github.com/aire-atlas/StofDoctrineExtensionsBundle.git
 [submodule "vendor/bundles/FOS/UserBundle"]
 	path = vendor/bundles/FOS/UserBundle
-	url = git://github.com/FriendsOfSymfony/FOSUserBundle.git
+	url = https://github.com/FriendsOfSymfony/FOSUserBundle.git
