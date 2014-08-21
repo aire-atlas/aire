@@ -80,8 +80,12 @@ class Wms extends BaseDisplay
   {
     $rel = $container->get('router')->generate
       ('geonef_ploomap_ows', array('id' => $this->map->getId()), false).'?';
-    $domain = $container->getParameter('geonef.ploomap.geocache.local_wms_domain');
 
+    // Because we don't want to rely on a domain
+    return $rel;
+
+    // Legacy:
+    $domain = $container->getParameter('geonef.ploomap.geocache.local_wms_domain');
     return 'http://' . $domain . $rel;
   }
 
