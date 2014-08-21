@@ -24,7 +24,7 @@ And removed all former refs, having cloned the original repository to
 [jfgigand's](https://github.com/jfgigand/aire).
 
 
-# 20140821: convert all remaining submodules to subtrees
+## 20140821: convert all remaining submodules to subtrees
 
 To make them stable (and not depend on vendor's), the submodule
 repositories had been forked on GitHub under
