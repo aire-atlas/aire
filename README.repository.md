@@ -88,3 +88,23 @@ And ``` git submodule ``` printed:
 -603b5ac669941a9fa95e8c16529581e04265682d vendor/symfony
 -661e9c7ad2820e881c93474f2fbcbe2661fd1970 vendor/twig
 ```
+
+What we did is fetching all refs:
+```
+for url in https://github.com/doctrine/common.git https://github.com/doctrine/mongodb.git https://github.com/aire-atlas/mongodb-odm.git https://github.com/doctrine/DoctrineMongoDBBundle.git https://github.com/aire-atlas/symfony.git https://github.com/fabpot/Twig.git https://github.com/Seldaek/monolog.git https://github.com/sensio/SensioFrameworkExtraBundle.git https://github.com/aire-atlas/InjectorBundle.git https://github.com/aire-atlas/gedmo-doctrine-extensions.git https://github.com/aire-atlas/StofDoctrineExtensionsBundle.git https://github.com/FriendsOfSymfony/FOSUserBundle.git; do git fetch $url aire; done
+```
+
+And add them as subtrees:
+```
+git subtree add --squash -P vendor/bundles/Funkiton/InjectorBundle f4e7edc70b2d28dd3da5ee43d34cef15861dc7f6
+git subtree add --squash -P vendor/bundles/Sensio/Bundle/FrameworkExtraBundle d36c60b4b1f47081476742d4aae39d4a5c9f4272
+git subtree add --squash -P vendor/bundles/Stof/DoctrineExtensionsBundle 45233976e7ea0374e7a408dfea9f6eb315ba5bf8
+git subtree add --squash -P vendor/bundles/Symfony/Bundle/DoctrineMongoDBBundle 
+git subtree add --squash -P vendor/doctrine-common c614a20e02cb8fd5531bce1adcb34a1210f79ac6
+git subtree add --squash -P vendor/doctrine-mongodb 5645300539e976bab19fbb64fcdcb76fcfde4f13
+git subtree add --squash -P vendor/doctrine-mongodb-odm 98dc46f1e1ff6f55e659d5f06d70788b72c33a46
+git subtree add --squash -P vendor/gedmo-doctrine-extensions 9312498e1f2d15920a20392dd646c4df6e368345
+git subtree add --squash -P vendor/monolog fe0b8b59ed65565931dc8db78ac628ef1cb65f7d
+git subtree add --squash -P vendor/symfony 603b5ac669941a9fa95e8c16529581e04265682d
+git subtree add --squash -P vendor/twig 661e9c7ad2820e881c93474f2fbcbe2661fd1970
+```
